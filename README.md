@@ -89,4 +89,3 @@ Copy code
 npm run dev
 4. View in Browser
 Open http://localhost:3000 to see the dashboard.
-```
