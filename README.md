@@ -79,8 +79,7 @@ Follow these steps to set up the project locally:
 
 
 1. Clone the Repository
-bash
-Copy code
+
 ```
 git clone https://github.com/karan0207/streamify-dashboard.git
 cd streamify-dashboard
