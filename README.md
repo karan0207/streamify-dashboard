@@ -30,10 +30,10 @@ src/
 │   ├── ui/                 # UI components from Shadcn
 │
 ├── constants/              # Mock data and other constants
+```
 
 
-
-🎨 Features
+## 🎨 Features
 1. Dashboard Navigation
 A responsive sidebar for navigating between dashboard components.
 Fully functional across devices, from mobile to desktop.
@@ -71,8 +71,12 @@ User ID
 Options to filter data by song name and artist name.
 8. Optimized Performance
 Memoization and callbacks (via useMemo and useCallback) to minimize unnecessary renders and computations.
-🚀 Getting Started
+
+
+
+```🚀 Getting Started
 Follow these steps to set up the project locally:
+
 
 1. Clone the Repository
 bash
@@ -89,3 +93,4 @@ Copy code
 npm run dev
 4. View in Browser
 Open http://localhost:3000 to see the dashboard.
+```
