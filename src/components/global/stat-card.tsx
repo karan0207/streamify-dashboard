@@ -4,7 +4,7 @@ type CardProp = {
     name: string;
     icon: LucideIcon;
     value: string;
-    color: string; // Enforces hex code strings
+    color: string;
   };
 
 const StatCard = ({ name, icon: Icon, value, color }: CardProp) => {

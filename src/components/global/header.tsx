@@ -3,7 +3,6 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Boxes } from "lucide-react";
 import { Button } from "@/components/ui/button";
-// import { MobileSidebar } from './mobile-sidebar';
 import { ThemeToggle } from "./theme-toggle";
 import { MobileSidebar } from "./mobile-sidebar";
 

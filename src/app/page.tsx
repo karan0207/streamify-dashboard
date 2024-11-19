@@ -2,15 +2,15 @@
 
 import React, { useState, useEffect } from "react";
 import { Card, MOCK_CARDSDATA, MONTHS } from "@/constants/mock-data";
-// import StatsCards from "@/components/dashboard/StatCards";
-// import Filters from "@/components/dashboard/Filters";
+
 import UserGrowthChart from "@/components/charts/user-growth-chart";
 import RevenueDistributionChart from "@/components/charts/revenue-distribution-chart";
 import TopStreamedSongsChart from "@/components/charts/most-streamed-songs-chart";
+
 import DataTable from "@/components/table/data-table";
 import StatsCards from "@/components/global/stats-cards";
 import Filters from "@/components/filters/filter-card-data";
-// import LoadingSpinner from "@/components/global/loading-spinner";
+
 
 const Page = () => {
   const YEARS = Object.keys(MOCK_CARDSDATA);
@@ -21,8 +21,8 @@ const Page = () => {
 
   // Filter data based on selected month and year
   useEffect(() => {
-    const dataForYear = MOCK_CARDSDATA[year]; // Access the data for the selected year
-    const dataForMonth = dataForYear?.[month] || []; // Access the data for the selected month
+    const dataForYear = MOCK_CARDSDATA[year]; 
+    const dataForMonth = dataForYear?.[month] || []; 
     setFilteredCardsData(dataForMonth);
   }, [month, year]);
 

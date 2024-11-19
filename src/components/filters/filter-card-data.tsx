@@ -1,5 +1,3 @@
-// import React from "react";
-
 interface FiltersProps {
     month: string;
     year: string;

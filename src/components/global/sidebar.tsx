@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { BsArrowLeftShort } from "react-icons/bs";
-// import { useSidebar } from "@/store/use-sidebar";
 import { SideNav } from "./sidenav";
 import { NavItems } from "@/constants/side-nav-data";
 import { useSidebar } from "@/store/sidebar-store";

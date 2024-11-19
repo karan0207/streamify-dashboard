@@ -1,16 +1,14 @@
 import { useState, useMemo } from "react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import React from "react";
-
-// Import the updated mock data
 import { userGrowthData } from "@/constants/mock-data";
 
-// Define TypeScript types for chart data
+
 interface UserGrowthData {
   month: string;
   totalUsers: number;
   activeUsers: number;
-  year: string; // Include the year property for filtering
+  year: string; 
 }
 
 const UserGrowthChart = () => {

@@ -1,21 +1,14 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import Link from "next/link";
-
 import { type NavItem } from "@/types";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-// import { useSidebar } from "@/hooks/useSidebar";
 import { buttonVariants } from "@/components/ui/button";
-
 import { useEffect, useState } from "react";
-import { ChevronDownIcon } from "@radix-ui/react-icons";
-// import { useSidebar } from "@/hooks/use-sidebar";
+import { ChevronDownIcon } from "@radix-ui/react-icons";;
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./subnav-accordion";
 import { useSidebar } from "@/store/sidebar-store";
-// import { useSidebar } from "@/store/sidebar-store";
-// import { useSidebar } from "@/store/use-sidebar";
-// import { useSidebar } from "@/hooks/use-sidebar";
 
 
 interface SideNavProps {

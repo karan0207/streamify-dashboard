@@ -1,5 +1,4 @@
 import React from "react";
-// import StatCard from "@/components/global/stats-card";
 import { Card } from "@/constants/mock-data";
 import StatCard from "./stat-card";
 
