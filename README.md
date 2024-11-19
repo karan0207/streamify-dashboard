@@ -74,23 +74,25 @@ Memoization and callbacks (via useMemo and useCallback) to minimize unnecessary 
 
 
 
-```🚀 Getting Started
+## 🚀 Getting Started
 Follow these steps to set up the project locally:
 
 
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-repo/music-streaming-dashboard.git
-cd music-streaming-dashboard
+```
+git clone https://github.com/karan0207/streamify-dashboard.git
+cd streamify-dashboard
+```
+
 2. Install Dependencies
-bash
-Copy code
+```
 npm install
+```
 3. Run the Development Server
-bash
-Copy code
+```
 npm run dev
+```
 4. View in Browser
 Open http://localhost:3000 to see the dashboard.
-```
