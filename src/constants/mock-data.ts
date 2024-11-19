@@ -61,16 +61,6 @@ export const InitialStreams:Stream[] = [
 ];
 
 
-// Top songs by total streams
-// export const TOP_SONGS_DATA = [
-//   { name: "Blinding Lights", streams: 350000 },
-//   { name: "Levitating", streams: 230000 },
-//   { name: "Good 4 U", streams: 210000 },
-//   { name: "Stay", streams: 220000 },
-//   { name: "Bad Habit", streams: 180000 },
-  
-// ];
-
 export const TOP_SONGS_DATA:SongStats = {
   2023: {
     January: [
@@ -256,37 +246,7 @@ export const revenueData = [
   { name: "Partnerships", value: 12000 },
 ];
 
-// User growth (Total users and active users by month)
-// export const userGrowthData = [
-//   // Weekly data for January
-//   { week: "Week 1", month: "Jan", quarter: "Q1", year: 2024, totalUsers: 148000, activeUsers: 74000 },
-//   { week: "Week 2", month: "Jan", quarter: "Q1", year: 2024, totalUsers: 150000, activeUsers: 75000 },
-//   { week: "Week 3", month: "Jan", quarter: "Q1", year: 2024, totalUsers: 153000, activeUsers: 76000 },
-//   { week: "Week 4", month: "Jan", quarter: "Q1", year: 2024, totalUsers: 155000, activeUsers: 77000 },
 
-//   // Weekly data for February
-//   { week: "Week 5", month: "Feb", quarter: "Q1", year: 2024, totalUsers: 158000, activeUsers: 81000 },
-//   { week: "Week 6", month: "Feb", quarter: "Q1", year: 2024, totalUsers: 160000, activeUsers: 82000 },
-//   { week: "Week 7", month: "Feb", quarter: "Q1", year: 2024, totalUsers: 163000, activeUsers: 83000 },
-//   { week: "Week 8", month: "Feb", quarter: "Q1", year: 2024, totalUsers: 165000, activeUsers: 85000 },
-
-//   // Monthly data
-//   { month: "Mar", quarter: "Q1", year: 2024, totalUsers: 170000, activeUsers: 90000 },
-//   { month: "Apr", quarter: "Q2", year: 2024, totalUsers: 200000, activeUsers: 110000 },
-//   { month: "May", quarter: "Q2", year: 2024, totalUsers: 250000, activeUsers: 135000 },
-
-//   // Quarterly data
-//   { quarter: "Q1", year: 2024, totalUsers: 180000, activeUsers: 95000 },
-//   { quarter: "Q2", year: 2024, totalUsers: 230000, activeUsers: 125000 },
-
-//   // Yearly data
-//   { year: 2024, totalUsers: 340000, activeUsers: 180000 },
-// ];
-
-
-// mock-data.ts
-
-// Monthly data for each month in 2023 and 2024
 export const userGrowthData = [
   { year: "2023", month: "Jan", totalUsers: 120000, activeUsers: 60000 },
   { year: "2023", month: "Feb", totalUsers: 125000, activeUsers: 62000 },
@@ -316,57 +276,13 @@ export const userGrowthData = [
 ];
 
 
-// Card data for key statistics
-// export interface CardData {
-//   name: string;
-//   value: string;
-//   icon: LucideIcon;
-//   color: string;
-// }
 
-// export const CARDSDATA: CardData[] = [
-//   { name: 'Total Users', value: '320,000', icon: Users, color: '#6366F1' },
-//   { name: 'Active Users', value: '170,000', icon: Users, color: '#8B5CF6' },
-//   { name: 'Total Streams', value: '2.5 Billion', icon: Zap, color: '#EC4899' },
-//   { name: 'Top Artist', value: 'The Weeknd', icon: BarChart2, color: '#10B981' },
-//   { name: 'Revenue', value: '$205,000', icon: DollarSign, color: '#F59E0B' },
-// ];
 
 export const COLORS = ["#34D399", "#60A5FA", "#F59E0B", "#EC4899"];
 
 
 
-// mock-data.ts
-// import { LucideIcon, Users, Zap, BarChart2, DollarSign } from "lucide-react";
 
-// export interface CardData {
-//   name: string;
-//   value: string;
-//   icon: LucideIcon;
-//   color: string;
-//   month: string;
-//   year: string;
-// }
-
-// import { LucideIcon, Users, Zap, BarChart2, DollarSign } from "lucide-react";
-
-// export interface CardData {
-//   name: string;
-//   value: string;
-//   icon: LucideIcon;
-//   color: string;
-// }
-
-// export interface YearlyData {
-//   [month: string]: CardData[]; // Each month will have an array of CardData
-// }
-
-// export interface MockData {
-//   [year: string]: YearlyData; // Data is structured by year, and each year contains months
-// }
-
-
-// CardData interface for each card component
  export interface Card {
   name: string;
   value: string;
@@ -374,9 +290,6 @@ export const COLORS = ["#34D399", "#60A5FA", "#F59E0B", "#EC4899"];
   color: string;
 }
 
-// YearlyData interface that stores data for each month as an array of CardData
-
-// MockData interface that organizes yearly data, with years as keys and YearlyData as values
 
 export interface CardsData {
   [year: string]: {
