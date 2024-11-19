@@ -50,7 +50,7 @@ const DataTable = () => {
   );
 
   return (
-    <div className="dark:bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 lg:col-span-2 border border-gray-700">
+    <div className="dark:bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 lg:col-span-2 border border-gray-700 mb-8 md:mb-2">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-4 mb-4">
         <h2 className="text-lg font-medium dark:text-gray-100 text-black">Recent Streams</h2>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
