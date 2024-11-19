@@ -16,13 +16,13 @@ interface FiltersProps {
     years,
   }) => {
     return (
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 ">
         <div className="flex space-x-4">
           {/* Month Selector */}
           <select
             value={month}
             onChange={(e) => setMonth(e.target.value)}
-            className="border border-gray-300 rounded px-3 py-2 focus:outline-none"
+            className="border bg-white text-black dark:bg-gray-800 dark:bg-opacity-50 dark:text-white border-gray-300 rounded px-3 py-2 focus:outline-none"
           >
             {months.map((m) => (
               <option key={m} value={m}>
@@ -35,7 +35,7 @@ interface FiltersProps {
           <select
             value={year}
             onChange={(e) => setYear(e.target.value)}
-            className="border border-gray-300 rounded px-3 py-2 focus:outline-none"
+            className="border bg-white text-black dark:bg-gray-800 dark:bg-opacity-50 dark:text-white border-gray-300 rounded px-3 py-2 focus:outline-none"
           >
             {years.map((y) => (
               <option key={y} value={y}>
